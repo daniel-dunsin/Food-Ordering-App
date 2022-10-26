@@ -1,5 +1,5 @@
 import { StaticImageData } from "next/image";
-
+import { ReactElement } from "react";
 export type IStoreItems = {
   allItems: IData[];
   filteredItem: IData[];
@@ -24,3 +24,5 @@ export type IMenuItems = {
   imgSrc: StaticImageData;
   name: string;
 };
+
+export type IBottomMenuIcons = ReactElement;

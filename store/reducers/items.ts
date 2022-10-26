@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { Items } from "../../public/data";
-import { IStoreItems } from "../../type/interfaces";
+import { IStoreItems } from "../../types/interfaces";
 
 const initialState: IStoreItems = {
   allItems: Items,

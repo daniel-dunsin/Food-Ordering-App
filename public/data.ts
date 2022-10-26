@@ -90,7 +90,7 @@ import taco3 from "./assets/images/taco3.png";
 import taco4 from "./assets/images/taco4.png";
 import taco5 from "./assets/images/taco5.png";
 import taco6 from "./assets/images/taco6.png";
-import { IData, IMenuItems } from "../type/interfaces";
+import { IData, IMenuItems } from "../types/interfaces";
 
 const MenuItems: IMenuItems[] = [
   {

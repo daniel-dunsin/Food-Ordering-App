@@ -2,3 +2,6 @@
   font-family: "poppins";
   src: url(../public/assets/font/poppins.ttf);
 }
+.banner-container {
+  background-image: url(../public/assets/images/banner.png);
+}
