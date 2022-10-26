@@ -9,6 +9,11 @@ export type IStoreItems = {
   filterParameter: string;
 };
 
+export type IOthers = {
+  activeIconIndex: number;
+  menuItemsPosition: number;
+};
+
 export type IData = {
   itemId: string;
   price: number;
@@ -26,3 +31,7 @@ export type IMenuItems = {
 };
 
 export type IBottomMenuIcons = ReactElement;
+
+export type ISubmenu = {
+  submenuTitle: string;
+};

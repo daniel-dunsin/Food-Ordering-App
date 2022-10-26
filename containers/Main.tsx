@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { Navbar, Banner, MenuItems } from "../components";
+import { Navbar, Banner, MenuItems, Submenu } from "../components";
 import MainStyled from "../styles/main.styled";
 import { BottomMenu } from "../components";
 const Main: FC = () => {
@@ -7,6 +7,7 @@ const Main: FC = () => {
     <MainStyled>
       <Navbar />
       <Banner />
+      <Submenu submenuTitle="Menu Category" />
       <MenuItems />
       <BottomMenu />
     </MainStyled>

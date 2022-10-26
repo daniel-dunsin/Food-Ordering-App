@@ -1,8 +1,8 @@
-import React from "react";
+import React, { FC } from "react";
 import Image from "next/image";
 import BannerStyled from "../styles/banner.styled";
 import bannerImg from "../public/assets/images/delivery.png";
-const Banner = () => {
+const Banner: FC = () => {
   return (
     <BannerStyled>
       <div className="banner-container">

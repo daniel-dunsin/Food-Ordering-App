@@ -1,8 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
 import itemsReducer from "./reducers/items";
+import otherSlices from "./reducers/others";
 const store = configureStore({
   reducer: {
     storeItems: itemsReducer,
+    others: otherSlices,
   },
 });
 

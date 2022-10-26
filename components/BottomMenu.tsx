@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { FC, useState } from "react";
 import {
   FaFacebookMessenger,
   FaHeart,
@@ -9,6 +9,9 @@ import {
 import { BsGearFill } from "react-icons/bs";
 import BottomMenuStyled from "../styles/bottomMenu.styled";
 import { IBottomMenuIcons } from "../types/interfaces";
+import { useDispatch, useSelector } from "react-redux";
+import { RootState } from "../store";
+import { setActiveIconIndex } from "../store/reducers/others";
 
 const bottomMenuIcons: IBottomMenuIcons[] = [
   <FaHome />,
@@ -19,11 +22,10 @@ const bottomMenuIcons: IBottomMenuIcons[] = [
   <BsGearFill />,
 ];
 
-const BottomMenu = () => {
-  const [activeIconIndex, setActiveIconIndex] = useState<number>(1);
-  const handleClick = (index: number): void => {
-    setActiveIconIndex(index);
-  };
+const BottomMenu: FC = () => {
+  const { activeIconIndex } = useSelector((state: RootState) => state.others);
+  const dispatch = useDispatch();
+
   return (
     <BottomMenuStyled>
       <ul>
@@ -33,7 +35,7 @@ const BottomMenu = () => {
               className={`icon ${activeIconIndex === index ? "active" : ""}`}
               key={index}
               onClick={() => {
-                handleClick(index);
+                dispatch(setActiveIconIndex({ index }));
               }}
             >
               <i>{icon}</i>
