@@ -8,8 +8,11 @@ const NavbarStyled = styled.nav`
     align-items: center;
     gap: 1rem;
     background-color: white;
-    box-shadow: 0px 3px 20px rgba(0,0,0,0.1);
-   
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 7;
     .input-box{
         width: 60%;
         display: flex;
@@ -88,7 +91,7 @@ const NavbarStyled = styled.nav`
     .toggle-icon{
         display: none;
     }
-    @media screen and (max-width: ${({ theme }) => theme.screens.tablet}) {
+    @media screen and (max-width: ${({ theme }) => theme.screens.laptops}) {
         .user-details{
             h3{
                 display: none;

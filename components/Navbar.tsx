@@ -1,14 +1,17 @@
 import React, { FC } from "react";
 import Image from "next/image";
 import NavbarStyled from "../styles/navbar.styled";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../store";
 import { FaSearch, FaShoppingCart, FaBars } from "react-icons/fa";
 import logo from "../public/assets/images/logo.png";
 import daniel from "../public/assets/images/daniel.jpg";
+import { toggleSidebar } from "../store/reducers/others";
+import { filterItemsBySearch } from "../store/reducers/items";
 
 const Navbar: FC = () => {
   const { amount } = useSelector((state: RootState) => state.storeItems);
+  const dispatch = useDispatch();
   return (
     <NavbarStyled>
       <div className="navbar-brand">
@@ -18,7 +21,13 @@ const Navbar: FC = () => {
         <i>
           <FaSearch />
         </i>
-        <input type="text" placeholder="Search" />
+        <input
+          type="text"
+          placeholder="Search"
+          onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
+            dispatch(filterItemsBySearch({ param: event.target.value }));
+          }}
+        />
       </div>
       <div className="cart-icon">
         <i>
@@ -33,7 +42,12 @@ const Navbar: FC = () => {
 
         <h3>Adejare Daniel</h3>
       </div>
-      <div className="toggle-icon">
+      <div
+        className="toggle-icon"
+        onClick={() => {
+          dispatch(toggleSidebar());
+        }}
+      >
         <i>
           <FaBars />
         </i>

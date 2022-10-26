@@ -4,12 +4,12 @@ const BottomMenuStyled = styled.div`
     background-color: #d5d5d5;
     position: fixed;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 20%;
+    transform: translateX(-20%);
     width: 100%;
     max-width: 700px;
     margin: 0 auto;
-    z-index: 7;
+    z-index: 3;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     ul{

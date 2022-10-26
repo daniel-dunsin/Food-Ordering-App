@@ -169,6 +169,8 @@ const Items: IData[] = [
     name: "Burger Bistro",
     ratings: 5,
     price: 7.5,
+    amount: 0,
+    total: 0,
   },
   {
     id: 2,
@@ -177,6 +179,8 @@ const Items: IData[] = [
     name: "Smokin' Burger",
     ratings: 5,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 3,
@@ -185,6 +189,8 @@ const Items: IData[] = [
     name: "Euphoria Burger",
     ratings: 5,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 4,
@@ -193,6 +199,8 @@ const Items: IData[] = [
     name: "Sassy Burger",
     ratings: 5,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 5,
@@ -201,6 +209,8 @@ const Items: IData[] = [
     name: "Jazz Burger",
     ratings: 5,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 6,
@@ -209,6 +219,8 @@ const Items: IData[] = [
     name: "Healthy Buns",
     ratings: 5,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 7,
@@ -217,6 +229,8 @@ const Items: IData[] = [
     name: "Margherita",
     ratings: 5,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 8,
@@ -225,6 +239,8 @@ const Items: IData[] = [
     name: "Peppy Paneer",
     ratings: 5,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 9,
@@ -233,6 +249,8 @@ const Items: IData[] = [
     name: "Double Cheese",
     ratings: 5,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 10,
@@ -241,6 +259,8 @@ const Items: IData[] = [
     name: "Farm House",
     ratings: 4,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 11,
@@ -249,6 +269,8 @@ const Items: IData[] = [
     name: "Veg Extrava",
     ratings: 4,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 12,
@@ -257,6 +279,8 @@ const Items: IData[] = [
     name: "Deluxe Veggie",
     ratings: 4,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 13,
@@ -265,6 +289,8 @@ const Items: IData[] = [
     name: "Hot Dog",
     ratings: 4,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 14,
@@ -273,6 +299,8 @@ const Items: IData[] = [
     name: "Hot Dog",
     ratings: 4,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 15,
@@ -281,6 +309,8 @@ const Items: IData[] = [
     name: "Hot Dog",
     ratings: 4,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 16,
@@ -289,6 +319,8 @@ const Items: IData[] = [
     name: "Hot Dog",
     ratings: 4,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 17,
@@ -297,6 +329,8 @@ const Items: IData[] = [
     name: "Hot Dog",
     ratings: 4,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 18,
@@ -305,6 +339,8 @@ const Items: IData[] = [
     name: "Hot Dog",
     ratings: 3,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 19,
@@ -313,6 +349,8 @@ const Items: IData[] = [
     name: "Taco",
     ratings: 3,
     price: 7.5,
+    amount: 0,
+    total: 0,
   },
   {
     id: 20,
@@ -321,6 +359,8 @@ const Items: IData[] = [
     name: "Taco",
     ratings: 3,
     price: 7.5,
+    amount: 0,
+    total: 0,
   },
   {
     id: 21,
@@ -329,6 +369,8 @@ const Items: IData[] = [
     name: "Taco",
     ratings: 3,
     price: 7.5,
+    amount: 0,
+    total: 0,
   },
   {
     id: 22,
@@ -337,6 +379,8 @@ const Items: IData[] = [
     name: "Taco",
     ratings: 3,
     price: 9,
+    amount: 0,
+    total: 0,
   },
   {
     id: 23,
@@ -345,6 +389,8 @@ const Items: IData[] = [
     name: "Taco",
     ratings: 3,
     price: 9,
+    amount: 0,
+    total: 0,
   },
   {
     id: 24,
@@ -353,6 +399,8 @@ const Items: IData[] = [
     name: "Taco",
     ratings: 3,
     price: 9,
+    amount: 0,
+    total: 0,
   },
   {
     id: 25,
@@ -361,6 +409,8 @@ const Items: IData[] = [
     name: "Snack",
     ratings: 4,
     price: 9,
+    amount: 0,
+    total: 0,
   },
   {
     id: 26,
@@ -369,6 +419,8 @@ const Items: IData[] = [
     name: "Snack",
     ratings: 4,
     price: 9,
+    amount: 0,
+    total: 0,
   },
   {
     id: 27,
@@ -377,6 +429,8 @@ const Items: IData[] = [
     name: "Snack",
     ratings: 4,
     price: 9,
+    amount: 0,
+    total: 0,
   },
   {
     id: 28,
@@ -385,6 +439,8 @@ const Items: IData[] = [
     name: "Snack",
     ratings: 4,
     price: 9,
+    amount: 0,
+    total: 0,
   },
   {
     id: 29,
@@ -393,6 +449,8 @@ const Items: IData[] = [
     name: "Snack",
     ratings: 4,
     price: 9,
+    amount: 0,
+    total: 0,
   },
   {
     id: 30,
@@ -401,6 +459,8 @@ const Items: IData[] = [
     name: "Snack",
     ratings: 4,
     price: 9,
+    amount: 0,
+    total: 0,
   },
   {
     id: 31,
@@ -409,6 +469,8 @@ const Items: IData[] = [
     name: "Red Bull",
     ratings: 4,
     price: 9,
+    amount: 0,
+    total: 0,
   },
   {
     id: 32,
@@ -417,6 +479,8 @@ const Items: IData[] = [
     name: "Pepsi",
     ratings: 4,
     price: 7.5,
+    amount: 0,
+    total: 0,
   },
   {
     id: 33,
@@ -425,6 +489,8 @@ const Items: IData[] = [
     name: "Monster Energy",
     ratings: 4,
     price: 7.5,
+    amount: 0,
+    total: 0,
   },
   {
     id: 34,
@@ -433,6 +499,8 @@ const Items: IData[] = [
     name: "Soft Drinks",
     ratings: 4,
     price: 7.5,
+    amount: 0,
+    total: 0,
   },
   {
     id: 35,
@@ -441,6 +509,8 @@ const Items: IData[] = [
     name: "Sprite",
     ratings: 4,
     price: 7.5,
+    amount: 0,
+    total: 0,
   },
   {
     id: 36,
@@ -449,6 +519,8 @@ const Items: IData[] = [
     name: "Fanta",
     ratings: 4,
     price: 7.5,
+    amount: 0,
+    total: 0,
   },
 
   {
@@ -458,6 +530,8 @@ const Items: IData[] = [
     name: "Burger Bistro",
     ratings: 5,
     price: 7.5,
+    amount: 0,
+    total: 0,
   },
   {
     id: 42,
@@ -466,6 +540,8 @@ const Items: IData[] = [
     name: "Smokin' Burger",
     ratings: 5,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 43,
@@ -474,6 +550,8 @@ const Items: IData[] = [
     name: "Euphoria Burger",
     ratings: 5,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 44,
@@ -482,6 +560,8 @@ const Items: IData[] = [
     name: "Sassy Burger",
     ratings: 5,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 45,
@@ -490,6 +570,8 @@ const Items: IData[] = [
     name: "Jazz Burger",
     ratings: 5,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 46,
@@ -498,6 +580,8 @@ const Items: IData[] = [
     name: "Healthy Buns",
     ratings: 5,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 47,
@@ -506,6 +590,8 @@ const Items: IData[] = [
     name: "Margherita",
     ratings: 5,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 48,
@@ -514,6 +600,8 @@ const Items: IData[] = [
     name: "Peppy Paneer",
     ratings: 5,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 49,
@@ -522,6 +610,8 @@ const Items: IData[] = [
     name: "Double Cheese",
     ratings: 5,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 50,
@@ -530,6 +620,8 @@ const Items: IData[] = [
     name: "Farm House",
     ratings: 4,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 51,
@@ -538,6 +630,8 @@ const Items: IData[] = [
     name: "Veg Extrava",
     ratings: 4,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 52,
@@ -546,6 +640,8 @@ const Items: IData[] = [
     name: "Deluxe Veggie",
     ratings: 4,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 53,
@@ -554,6 +650,8 @@ const Items: IData[] = [
     name: "Hot Dog",
     ratings: 4,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 54,
@@ -562,6 +660,8 @@ const Items: IData[] = [
     name: "Hot Dog",
     ratings: 4,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 55,
@@ -570,6 +670,8 @@ const Items: IData[] = [
     name: "Hot Dog",
     ratings: 4,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 56,
@@ -578,6 +680,8 @@ const Items: IData[] = [
     name: "Hot Dog",
     ratings: 4,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 57,
@@ -586,6 +690,8 @@ const Items: IData[] = [
     name: "Hot Dog",
     ratings: 4,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 58,
@@ -594,6 +700,8 @@ const Items: IData[] = [
     name: "Hot Dog",
     ratings: 3,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 59,
@@ -602,6 +710,8 @@ const Items: IData[] = [
     name: "Taco",
     ratings: 3,
     price: 7.5,
+    amount: 0,
+    total: 0,
   },
   {
     id: 60,
@@ -610,6 +720,8 @@ const Items: IData[] = [
     name: "Taco",
     ratings: 3,
     price: 7.5,
+    amount: 0,
+    total: 0,
   },
   {
     id: 61,
@@ -618,6 +730,8 @@ const Items: IData[] = [
     name: "Taco",
     ratings: 3,
     price: 7.5,
+    amount: 0,
+    total: 0,
   },
   {
     id: 62,
@@ -626,6 +740,8 @@ const Items: IData[] = [
     name: "Taco",
     ratings: 3,
     price: 9,
+    amount: 0,
+    total: 0,
   },
   {
     id: 63,
@@ -634,6 +750,8 @@ const Items: IData[] = [
     name: "Taco",
     ratings: 3,
     price: 9,
+    amount: 0,
+    total: 0,
   },
   {
     id: 64,
@@ -642,6 +760,8 @@ const Items: IData[] = [
     name: "Taco",
     ratings: 3,
     price: 9,
+    amount: 0,
+    total: 0,
   },
   {
     id: 65,
@@ -650,6 +770,8 @@ const Items: IData[] = [
     name: "Snack",
     ratings: 4,
     price: 9,
+    amount: 0,
+    total: 0,
   },
   {
     id: 66,
@@ -658,6 +780,8 @@ const Items: IData[] = [
     name: "Snack",
     ratings: 4,
     price: 9,
+    amount: 0,
+    total: 0,
   },
   {
     id: 67,
@@ -666,6 +790,8 @@ const Items: IData[] = [
     name: "Snack",
     ratings: 4,
     price: 9,
+    amount: 0,
+    total: 0,
   },
   {
     id: 68,
@@ -674,6 +800,8 @@ const Items: IData[] = [
     name: "Snack",
     ratings: 4,
     price: 9,
+    amount: 0,
+    total: 0,
   },
   {
     id: 69,
@@ -682,6 +810,8 @@ const Items: IData[] = [
     name: "Snack",
     ratings: 4,
     price: 9,
+    amount: 0,
+    total: 0,
   },
   {
     id: 70,
@@ -690,6 +820,8 @@ const Items: IData[] = [
     name: "Snack",
     ratings: 4,
     price: 9,
+    amount: 0,
+    total: 0,
   },
   {
     id: 71,
@@ -698,6 +830,8 @@ const Items: IData[] = [
     name: "Soft Drinks",
     ratings: 4,
     price: 9,
+    amount: 0,
+    total: 0,
   },
   {
     id: 72,
@@ -706,6 +840,8 @@ const Items: IData[] = [
     name: "Soft Drinks",
     ratings: 4,
     price: 7.5,
+    amount: 0,
+    total: 0,
   },
   {
     id: 73,
@@ -714,6 +850,8 @@ const Items: IData[] = [
     name: "Soft Drinks",
     ratings: 4,
     price: 7.5,
+    amount: 0,
+    total: 0,
   },
   {
     id: 74,
@@ -722,6 +860,8 @@ const Items: IData[] = [
     name: "Soft Drinks",
     ratings: 4,
     price: 7.5,
+    amount: 0,
+    total: 0,
   },
   {
     id: 75,
@@ -730,6 +870,8 @@ const Items: IData[] = [
     name: "Soft Drinks",
     ratings: 4,
     price: 7.5,
+    amount: 0,
+    total: 0,
   },
   {
     id: 76,
@@ -738,6 +880,8 @@ const Items: IData[] = [
     name: "Soft Drinks",
     ratings: 4,
     price: 7.5,
+    amount: 0,
+    total: 0,
   },
   {
     id: 77,
@@ -746,6 +890,8 @@ const Items: IData[] = [
     name: "Fried Chicken",
     ratings: 3,
     price: 10,
+    amount: 0,
+    total: 0,
   },
   {
     id: 78,
@@ -754,6 +900,8 @@ const Items: IData[] = [
     name: "Smoked Chicken",
     ratings: 5,
     price: 15,
+    amount: 0,
+    total: 0,
   },
   {
     id: 79,
@@ -762,6 +910,8 @@ const Items: IData[] = [
     name: "Chicken",
     ratings: 4,
     price: 4,
+    amount: 0,
+    total: 0,
   },
   {
     id: 80,
@@ -770,6 +920,8 @@ const Items: IData[] = [
     name: "Fried Chicken",
     ratings: 2,
     price: 12,
+    amount: 0,
+    total: 0,
   },
   {
     id: 81,
@@ -778,6 +930,8 @@ const Items: IData[] = [
     name: "Chicken",
     ratings: 5,
     price: 8,
+    amount: 0,
+    total: 0,
   },
   {
     id: 82,
@@ -786,6 +940,8 @@ const Items: IData[] = [
     name: "Fried Chicken",
     ratings: 4,
     price: 7,
+    amount: 0,
+    total: 0,
   },
   {
     id: 83,
@@ -794,6 +950,8 @@ const Items: IData[] = [
     name: "Chilled Juice",
     ratings: 3,
     price: 10,
+    amount: 0,
+    total: 0,
   },
   {
     id: 84,
@@ -802,6 +960,8 @@ const Items: IData[] = [
     name: "Coca-Cola",
     ratings: 5,
     price: 11,
+    amount: 0,
+    total: 0,
   },
   {
     id: 85,
@@ -810,6 +970,8 @@ const Items: IData[] = [
     name: "Fried Fish",
     ratings: 4,
     price: 5,
+    amount: 0,
+    total: 0,
   },
   {
     id: 86,
@@ -818,6 +980,8 @@ const Items: IData[] = [
     name: "Grilled Fish",
     ratings: 3,
     price: 7,
+    amount: 0,
+    total: 0,
   },
   {
     id: 87,
@@ -826,6 +990,8 @@ const Items: IData[] = [
     name: "Fried Fish",
     ratings: 5,
     price: 6,
+    amount: 0,
+    total: 0,
   },
   {
     id: 88,
@@ -834,6 +1000,8 @@ const Items: IData[] = [
     name: "Fish",
     ratings: 2,
     price: 4,
+    amount: 0,
+    total: 0,
   },
   {
     id: 89,
@@ -842,6 +1010,8 @@ const Items: IData[] = [
     name: "Strawberry",
     ratings: 4,
     price: 8,
+    amount: 0,
+    total: 0,
   },
   {
     id: 90,
@@ -850,6 +1020,8 @@ const Items: IData[] = [
     name: "Pineapple",
     ratings: 4,
     price: 9,
+    amount: 0,
+    total: 0,
   },
   {
     id: 91,
@@ -858,6 +1030,8 @@ const Items: IData[] = [
     name: "Blackberry",
     ratings: 5,
     price: 10,
+    amount: 0,
+    total: 0,
   },
   {
     id: 92,
@@ -866,6 +1040,8 @@ const Items: IData[] = [
     name: "Grape",
     ratings: 3,
     price: 7,
+    amount: 0,
+    total: 0,
   },
   {
     id: 93,
@@ -874,6 +1050,8 @@ const Items: IData[] = [
     name: "Strawberry",
     ratings: 4,
     price: 10,
+    amount: 0,
+    total: 0,
   },
   {
     id: 84,
@@ -882,6 +1060,8 @@ const Items: IData[] = [
     name: "Raspberry",
     ratings: 4,
     price: 10,
+    amount: 0,
+    total: 0,
   },
   {
     id: 85,
@@ -890,6 +1070,8 @@ const Items: IData[] = [
     name: "Strawberry",
     ratings: 5,
     price: 7,
+    amount: 0,
+    total: 0,
   },
   {
     id: 86,
@@ -898,6 +1080,8 @@ const Items: IData[] = [
     name: "Cherry",
     ratings: 3,
     price: 3,
+    amount: 0,
+    total: 0,
   },
   {
     id: 87,
@@ -906,6 +1090,8 @@ const Items: IData[] = [
     name: "Banana",
     ratings: 3,
     price: 5,
+    amount: 0,
+    total: 0,
   },
   {
     id: 88,
@@ -914,6 +1100,8 @@ const Items: IData[] = [
     name: "Watermelon",
     ratings: 4,
     price: 9,
+    amount: 0,
+    total: 0,
   },
   {
     id: 89,
@@ -922,6 +1110,8 @@ const Items: IData[] = [
     name: "Mixed Fruits",
     ratings: 3,
     price: 20,
+    amount: 0,
+    total: 0,
   },
   {
     id: 90,
@@ -930,6 +1120,8 @@ const Items: IData[] = [
     name: "White Rice",
     ratings: 4,
     price: 9,
+    amount: 0,
+    total: 0,
   },
   {
     id: 91,
@@ -938,6 +1130,8 @@ const Items: IData[] = [
     name: "Rice & Chicken",
     ratings: 5,
     price: 7,
+    amount: 0,
+    total: 0,
   },
   {
     id: 92,
@@ -946,6 +1140,8 @@ const Items: IData[] = [
     name: "Jollof Rice",
     ratings: 5,
     price: 11,
+    amount: 0,
+    total: 0,
   },
   {
     id: 93,
@@ -954,6 +1150,8 @@ const Items: IData[] = [
     name: "White Rice",
     ratings: 5,
     price: 11,
+    amount: 0,
+    total: 0,
   },
   {
     id: 94,
@@ -962,6 +1160,8 @@ const Items: IData[] = [
     name: "White Rice",
     ratings: 4,
     price: 10,
+    amount: 0,
+    total: 0,
   },
   {
     id: 95,
@@ -970,6 +1170,8 @@ const Items: IData[] = [
     name: "Jelato",
     ratings: 4,
     price: 8,
+    amount: 0,
+    total: 0,
   },
   {
     id: 96,
@@ -978,6 +1180,8 @@ const Items: IData[] = [
     name: "Soup",
     ratings: 2,
     price: 6.2,
+    amount: 0,
+    total: 0,
   },
   {
     id: 97,
@@ -986,6 +1190,8 @@ const Items: IData[] = [
     name: "Soup",
     ratings: 3,
     price: 7,
+    amount: 0,
+    total: 0,
   },
   {
     id: 98,
@@ -994,6 +1200,8 @@ const Items: IData[] = [
     name: "Soup",
     ratings: 5,
     price: 6,
+    amount: 0,
+    total: 0,
   },
   {
     id: 99,
@@ -1002,6 +1210,8 @@ const Items: IData[] = [
     name: "Soup",
     ratings: 3,
     price: 4.6,
+    amount: 0,
+    total: 0,
   },
   {
     id: 100,
@@ -1010,6 +1220,8 @@ const Items: IData[] = [
     name: "Soup",
     ratings: 2,
     price: 10,
+    amount: 0,
+    total: 0,
   },
   {
     id: 101,
@@ -1018,6 +1230,8 @@ const Items: IData[] = [
     name: "Soup",
     ratings: 4,
     price: 6,
+    amount: 0,
+    total: 0,
   },
 ];
 

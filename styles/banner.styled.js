@@ -1,6 +1,7 @@
 const { default: styled } = require("styled-components");
 
 const BannerStyled = styled.header`
+    margin-top: 7rem;
     width: 100%;
     .banner-container{
         height: 200px;

@@ -12,6 +12,7 @@ export type IStoreItems = {
 export type IOthers = {
   activeIconIndex: number;
   menuItemsPosition: number;
+  sidebarOpened: boolean;
 };
 
 export type IData = {
@@ -21,6 +22,8 @@ export type IData = {
   imgSrc: StaticImageData;
   name: string;
   id: number;
+  amount: number;
+  total: number;
 };
 
 export type IMenuItems = {

@@ -10,10 +10,14 @@ import {
   decreaseMenuItemsPosition,
   increaseMenuItemsPosition,
 } from "../store/reducers/others";
+import { setFilterParameters } from "../store/reducers/items";
 
 const MenuItems: FC = () => {
   const containerRef = useRef(null);
   const { menuItemsPosition } = useSelector((state: RootState) => state.others);
+  const { filterParameter } = useSelector(
+    (state: RootState) => state.storeItems
+  );
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -43,7 +47,15 @@ const MenuItems: FC = () => {
       <div className="menu-items-container" ref={containerRef}>
         {items.map((item: IMenuItems, index: number) => {
           return (
-            <article className="menu-item" key={index}>
+            <article
+              className={`menu-item ${
+                filterParameter === item.itemId ? "active" : "null"
+              }`}
+              key={index}
+              onClick={() => {
+                dispatch(setFilterParameters({ param: item.itemId }));
+              }}
+            >
               <div className="menu-item-image-container">
                 <Image
                   src={item.imgSrc}
