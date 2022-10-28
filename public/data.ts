@@ -1054,7 +1054,7 @@ const Items: IData[] = [
     total: 0,
   },
   {
-    id: 84,
+    id: 94,
     itemId: "fruit",
     imgSrc: fruit6,
     name: "Raspberry",
@@ -1064,7 +1064,7 @@ const Items: IData[] = [
     total: 0,
   },
   {
-    id: 85,
+    id: 95,
     itemId: "fruit",
     imgSrc: fruit7,
     name: "Strawberry",
@@ -1074,7 +1074,7 @@ const Items: IData[] = [
     total: 0,
   },
   {
-    id: 86,
+    id: 96,
     itemId: "fruit",
     imgSrc: fruit8,
     name: "Cherry",
@@ -1084,7 +1084,7 @@ const Items: IData[] = [
     total: 0,
   },
   {
-    id: 87,
+    id: 97,
     itemId: "fruit",
     imgSrc: fruit9,
     name: "Banana",
@@ -1094,7 +1094,7 @@ const Items: IData[] = [
     total: 0,
   },
   {
-    id: 88,
+    id: 98,
     itemId: "fruit",
     imgSrc: fruit10,
     name: "Watermelon",
@@ -1104,7 +1104,7 @@ const Items: IData[] = [
     total: 0,
   },
   {
-    id: 89,
+    id: 99,
     itemId: "fruit",
     imgSrc: fruit11,
     name: "Mixed Fruits",
@@ -1114,7 +1114,7 @@ const Items: IData[] = [
     total: 0,
   },
   {
-    id: 90,
+    id: 100,
     itemId: "rice",
     imgSrc: rice1,
     name: "White Rice",
@@ -1124,7 +1124,7 @@ const Items: IData[] = [
     total: 0,
   },
   {
-    id: 91,
+    id: 101,
     itemId: "rice",
     imgSrc: rice2,
     name: "Rice & Chicken",
@@ -1134,7 +1134,7 @@ const Items: IData[] = [
     total: 0,
   },
   {
-    id: 92,
+    id: 102,
     itemId: "rice",
     imgSrc: rice3,
     name: "Jollof Rice",
@@ -1144,7 +1144,7 @@ const Items: IData[] = [
     total: 0,
   },
   {
-    id: 93,
+    id: 103,
     itemId: "rice",
     imgSrc: rice4,
     name: "White Rice",
@@ -1154,7 +1154,7 @@ const Items: IData[] = [
     total: 0,
   },
   {
-    id: 94,
+    id: 104,
     itemId: "rice",
     imgSrc: rice5,
     name: "White Rice",
@@ -1164,7 +1164,7 @@ const Items: IData[] = [
     total: 0,
   },
   {
-    id: 95,
+    id: 105,
     itemId: "snack",
     imgSrc: snack7,
     name: "Jelato",
@@ -1174,7 +1174,7 @@ const Items: IData[] = [
     total: 0,
   },
   {
-    id: 96,
+    id: 106,
     itemId: "soup",
     imgSrc: soup1,
     name: "Soup",
@@ -1184,7 +1184,7 @@ const Items: IData[] = [
     total: 0,
   },
   {
-    id: 97,
+    id: 107,
     itemId: "soup",
     imgSrc: soup2,
     name: "Soup",
@@ -1194,7 +1194,7 @@ const Items: IData[] = [
     total: 0,
   },
   {
-    id: 98,
+    id: 108,
     itemId: "soup",
     imgSrc: soup3,
     name: "Soup",
@@ -1204,7 +1204,7 @@ const Items: IData[] = [
     total: 0,
   },
   {
-    id: 99,
+    id: 109,
     itemId: "soup",
     imgSrc: soup4,
     name: "Soup",
@@ -1214,7 +1214,7 @@ const Items: IData[] = [
     total: 0,
   },
   {
-    id: 100,
+    id: 110,
     itemId: "soup",
     imgSrc: soup5,
     name: "Soup",
@@ -1224,7 +1224,7 @@ const Items: IData[] = [
     total: 0,
   },
   {
-    id: 101,
+    id: 111,
     itemId: "soup",
     imgSrc: soup6,
     name: "Soup",
