@@ -13,7 +13,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../store";
 import { setActiveIconIndex } from "../store/reducers/others";
 
-const bottomMenuIcons: IBottomMenuIcons[] = [
+const bottomIcons: IBottomMenuIcons[] = [
   <FaHome />,
   <FaFacebookMessenger />,
   <FaWallet />,
@@ -29,11 +29,10 @@ const BottomMenu: FC = () => {
   return (
     <BottomMenuStyled>
       <ul>
-        {bottomMenuIcons.map((icon: IBottomMenuIcons, index: number) => {
+        {bottomIcons.map((icon: IBottomMenuIcons, index: number) => {
           return (
             <li
               className={`icon ${activeIconIndex === index ? "active" : ""}`}
-              key={index}
               onClick={() => {
                 dispatch(setActiveIconIndex({ index }));
               }}
@@ -42,6 +41,7 @@ const BottomMenu: FC = () => {
             </li>
           );
         })}
+
         <div className="indicator"></div>
       </ul>
     </BottomMenuStyled>

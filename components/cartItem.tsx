@@ -5,20 +5,12 @@ import Image from "next/image";
 import CartItemStyled from "../styles/cartItem.styled";
 import { useDispatch } from "react-redux";
 import { removeFromCart, toggleItemAmount } from "../store/reducers/items";
-const CartItem: FC<IData> = ({
-  id,
-  total,
-  itemId,
-  imgSrc,
-  price,
-  name,
-  amount,
-}) => {
+const CartItem: FC<IData> = ({ id, imgSrc, price, name, amount }) => {
   const dispatch = useDispatch();
   return (
     <CartItemStyled>
       <div className="img-container">
-        <Image src={imgSrc} width="50px" height="50px" />
+        <Image src={imgSrc} width="50px" height="50px" alt={name} />
       </div>
       <div className="item-content">
         <h4>{name}</h4>

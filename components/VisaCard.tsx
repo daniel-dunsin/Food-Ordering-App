@@ -8,10 +8,10 @@ const VisaCard = () => {
   return (
     <VisaCardStyled>
       <div className="visa-logo">
-        <Image src={visaLogo} width={"90px"} height={"30px"} />
+        <Image src={visaLogo} width={"90px"} height={"30px"} alt="visalogo" />
       </div>
       <div className="card-chip">
-        <Image src={cardChip} width={"50px"} height={"25px"} />
+        <Image src={cardChip} width={"50px"} height={"25px"} alt="card-chip" />
       </div>
       <h4 className="card-number">1234 567 8920 3200</h4>
       <h4 className="card-name">Adejare Daniel</h4>

@@ -15,7 +15,12 @@ const Cart: FC = () => {
   if (cart.length === 0) {
     return (
       <CartStyled>
-        <Image src={emptyCart} width={"280px"} height={"280px"} />
+        <Image
+          src={emptyCart}
+          width={"280px"}
+          height={"280px"}
+          alt="empty cart"
+        />
       </CartStyled>
     );
   }

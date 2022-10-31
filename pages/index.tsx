@@ -13,7 +13,7 @@ const Home: NextPage = () => {
 
   useEffect(() => {
     dispatch(getTotals());
-  }, [cart]);
+  }, [cart, dispatch]);
   return (
     <>
       <Head>

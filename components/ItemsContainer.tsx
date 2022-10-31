@@ -14,13 +14,13 @@ const ItemsContainer: React.FC = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(filterItems());
-  }, [filterParameter]);
+  }, [filterParameter, dispatch]);
 
   if (filteredItem.length === 0) {
     return (
       <NoItemStyled>
         <div className="no-item">
-          <h1>What You're looking for isn't available</h1>
+          <h1>{"What You're looking for isn't available"}</h1>
         </div>
       </NoItemStyled>
     );

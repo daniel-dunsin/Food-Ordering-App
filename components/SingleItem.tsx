@@ -22,7 +22,7 @@ const SingleItem: FC<IData> = ({
   return (
     <SingleItemStyled>
       <div className="img-container">
-        <Image src={imgSrc} width={"100px"} height={"100px"} />
+        <Image src={imgSrc} width={"100px"} height={"100px"} alt={name} />
       </div>
       <div className="item-content">
         <i

@@ -15,7 +15,7 @@ const Navbar: FC = () => {
   return (
     <NavbarStyled>
       <div className="navbar-brand">
-        <Image src={logo} width={60} height={60} className="logo" />
+        <Image src={logo} width={60} height={60} className="logo" alt="logo" />
       </div>
       <div className="input-box">
         <i>
@@ -37,7 +37,13 @@ const Navbar: FC = () => {
       </div>
       <div className="user-details">
         <div className="user-image-container">
-          <Image src={daniel} width={50} height={50} className="user-image" />
+          <Image
+            src={daniel}
+            width={50}
+            height={50}
+            className="user-image"
+            alt="user"
+          />
         </div>
 
         <h3>Adejare Daniel</h3>

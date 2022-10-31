@@ -62,6 +62,7 @@ const MenuItems: FC = () => {
                   width={"40px"}
                   height={"40px"}
                   className="menu-item-image"
+                  alt={item.name}
                 />
               </div>
               <h3>{item.name}</h3>

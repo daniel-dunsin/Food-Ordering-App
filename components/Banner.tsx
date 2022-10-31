@@ -14,7 +14,12 @@ const Banner: FC = () => {
           <button>Learn More</button>
         </div>
         <div className="banner-img">
-          <Image src={bannerImg} width={"350px"} height={"240px"} />
+          <Image
+            src={bannerImg}
+            width={"350px"}
+            height={"240px"}
+            alt="banner"
+          />
         </div>
       </div>
     </BannerStyled>
