@@ -36,6 +36,7 @@ const BottomMenu: FC = () => {
               onClick={() => {
                 dispatch(setActiveIconIndex({ index }));
               }}
+              key={index}
             >
               <i>{icon}</i>
             </li>
